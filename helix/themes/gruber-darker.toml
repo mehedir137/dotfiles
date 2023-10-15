@@ -1,5 +1,5 @@
 # Author : Mehedi Hasan <mehedi.r137@gmail.com>
-# The theme uses the gruvbox dark palette with standard contrast: github.com/morhetz/gruvbox
+# The theme is a port of: https://github.com/rexim/gruber-darker-theme
 
 "attribute" = "fg1"
 "keyword" = { fg = "yellow0" , modifiers = ["bold"]}
