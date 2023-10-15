@@ -1,0 +1,141 @@
+# Author : Jakub Bartodziej <kubabartodziej@gmail.com>
+# The theme uses the gruvbox dark palette with standard contrast: github.com/morhetz/gruvbox
+
+"attribute" = "fg_1"
+"keyword" = { fg = "yellow" , modifiers = ["bold"]}
+"keyword.directive" = "quartz"
+"namespace" = "quartz"
+"punctuation" = "fg_1"
+"punctuation.delimiter" = "fg_1"
+"operator" = "fg_1"
+"special" = { fg = "yellow", modifiers = ["bold"] }
+# "variable.other.member" = "green"
+"variable" = "fg_1"
+"variable.builtin" = {  fg = "yellow", modifiers = ["bold"]}
+"variable.parameter" = "fg_1"
+"type" = "quartz"
+"type.builtin" = "quartz"
+"constructor" = { fg = "quartz" }
+"function" = "niagara"
+"function.builtin" = "yellow"
+# "function.method" = { fg = "green" }
+# "function.macro" = "quartz"
+# "function.special" = { fg = "green" }
+"tag" = "niagara"
+"comment" = { fg = "brown" }
+"constant.character" = { fg = "green" }
+"constant.character.escape" = { fg = "yellow" }
+# "constant.builtin" = { fg = "yellow" }
+"constant.builtin" = { fg = "yellow", modifiers = ["bold"] }
+"string" = "green"
+"constant.numeric" = "wisteria"
+"label" = "fg_1"
+"module" = "aqua1"
+
+"diff.plus" = "green1"
+"diff.delta" = "orange1"
+"diff.minus" = "red"
+
+"warning" =  "orange1"
+"error" = "red"
+"info" = "aqua1"
+"hint" = "blue1"
+
+
+# "ui.background" = { bg = "bg", fg = "fg" }
+"ui.linenr" = { fg = "bg_4" }
+"ui.linenr.selected" = { fg = "yellow" }
+"ui.cursorline" = { bg = "bg_1" }
+"ui.statusline" = { fg = "fg_1", bg = "bg_1" }
+"ui.statusline.normal" = { fg = "fg_1", bg = "bg_1" }
+"ui.statusline.insert" = { fg = "fg_1", bg = "red1" }
+"ui.statusline.select" = { fg = "fg_1", bg = "orange0" }
+"ui.statusline.inactive" = { fg = "fg4", bg = "bg_1" }
+"ui.popup" = { bg = "bg_7" }
+"ui.window" = { bg = "bg_1" }
+"ui.help" = { bg = "bg_7", fg = "fg_1" }
+"ui.text" = { fg = "fg_1" }
+"ui.text.focus" = { bg = "bg_5", modifiers = ["bold"] }
+"ui.selection" = { bg = "bg_2" }
+"ui.selection.primary" = { bg = "bg_5" }
+"ui.cursor.primary" = { bg = "fg", fg = "niagara-2" }
+"ui.cursor.match" = { bg = "yellow_1" }
+"ui.menu" = { fg = "fg_1", bg = "bg_7" }
+"ui.menu.selected" = { fg = "fg_1", bg = "bg_5", modifiers = ["bold"] }
+"ui.virtual.whitespace" = "bg_2"
+"ui.virtual.ruler" = { bg = "red1" }
+"ui.virtual.inlay-hint" = { fg = "gray1" }
+"ui.virtual.wrap" = { fg = "bg_2" }
+
+"diagnostic.warning" = { underline = { color = "orange1", style = "dashed" } }
+"diagnostic.error" = { underline = { color = "red1", style = "dashed" } }
+"diagnostic.info" = { underline = { color = "aqua1", style = "dashed" } }
+"diagnostic.hint" = { underline = { color = "blue1", style = "dashed" } }
+
+"markup.heading" = "aqua1"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "green1", modifiers = ["underlined"] }
+"markup.link.text" = "red1"
+"markup.raw" = "red1"
+
+[palette]
+bg0 = "#282828"
+bg1 = "#3c3836"
+bg2 = "#504945"
+bg3 = "#665c54"
+bg4 = "#7c6f64"
+fg0 = "#fbf1c7"
+fg1 = "#ebdbb2"
+fg2 = "#d5c4a1"
+fg3 = "#bdae93"
+fg4 = "#a89984" 
+gray0 = "#a89984"
+gray1 = "#928374"
+red0 = "#cc241d" 
+red1 = "#fb4934" 
+green0 = "#98971a"
+green1 = "#b8bb26"
+yellow0 = "#d79921"
+yellow1 = "#fabd2f"
+blue0 = "#458588"
+blue1 = "#83a598"
+purple0 = "#b16286"
+purple1 = "#d3869b"
+aqua0 = "#689d6a"
+aqua1 = "#8ec07c"
+orange0 = "#d65d0e"
+orange1 = "#fe8019" #in use
+orange1_bg = "#371C06" #in use
+
+fg =        "#e4e4ef"
+fg_1 =      "#e4e4ef"
+# fg_1 =      "#f4f4ff"
+fg_2 =      "#f5f5f5"
+white =     "#ffffff"
+black =     "#000000"
+bg-1 =      "#101010"
+bg =        "#181818"
+bg_1 =      "#282828"
+bg_2 =      "#453d41"
+bg_3 =      "#484848"
+bg_4 =      "#52494e"
+bg_5 =      "#404040"
+bg_6 =      "#555555"
+bg_7 =      "#232323"
+red-1 =     "#c73c3f"
+red =       "#f43841"
+red_1 =     "#ff4f58"
+red_2 =     "#2B0A0B"
+green =     "#73c936"
+yellow =    "#ffdd33"
+yellow_1 =  "#655814"
+brown =     "#cc8c3c"
+quartz =    "#95a99f"
+niagara-2 = "#303540"
+niagara-1 = "#565f73"
+niagara =   "#96a6c8"
+wisteria =  "#9e95c7"
+
+
