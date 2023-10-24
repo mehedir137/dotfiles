@@ -3,9 +3,12 @@ theme = "gruber-darker"
 [editor]
 # line-number = "relative"
 mouse = true
+color-modes = true
 cursorline = true
 true-color = true
-
+# cursorcolumn = true
+# bufferline = "always"
+# rulers = [60]
 
 [editor.cursor-shape]
 insert = "bar"
@@ -17,4 +20,16 @@ hidden = false
 
 [editor.lsp]
 display-messages = true
-display-inlay-hints = false
+# display-inlay-hints = true
+
+
+
+# [editor.whitespace]
+# render = "all"
+
+# [editor.indent-guides]
+# render = true
+# character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+# skip-levels = 1
+
+
