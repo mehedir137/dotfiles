@@ -1,0 +1,7 @@
+[[language]]
+name = "cpp"
+formatter = { command = "clang-format" , args = ["-style=Google"] }
+
+[[language]]
+name = "c"
+formatter = { command = "clang-format" , args = ["-style=Google"] }
